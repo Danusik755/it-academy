@@ -1,0 +1,22 @@
+body {
+    position: relative;
+    height: 2000px;
+
+}
+
+
+
+
+
+
+
+.box {
+   /* display: blokc;*/ /*Блочный элемент*/
+     display: inline-block;*/ /*Строчный-блочный элемент*/
+     /*display-inside: ; */ /*Строчный элемент*/
+    width: 200px;
+    height: 200px;
+    background blue ;
+    /* color: #ffff; /*HEX/формат*/
+    color : rgb(25, 255, 255); /*RGB формат*/
+}

@@ -5,7 +5,7 @@
  /* 1.1. тег элемента */
  body {
      /* Свойство: значения */
-     background-color: #f0f0f0  /* Задний фон */
+     background-color: darkkhaki  /* Задний фон */
  }
 /* 1.2. Класс элемента */
  .section {
@@ -66,5 +66,34 @@ margin: 20px;
  }
 
 
- .text-weight: 700; /* Изменение жирности текста */
-    font-weight: 700;
+ .text-weight 700 {
+     font-weight: 700;
+
+ } /* Изменение жирности текста */
+
+
+
+ .text-size {
+     font-size: 24px; /*Изменение разера текста */
+ }
+
+ .text-italic {
+     font-style: italic; /*Изменение разера текста */
+ }
+
+
+ .text-underline {
+     text-decoration: underline; /*Изменение разера текста */
+ }
+
+ .text-center {
+     text-align: center; /*Изменение разера текста */
+ }
+
+ .text-family {
+     font-family:Roboto, Arial sans-serif; /*Изменение разера текста */
+ }
+
+ .text-center {
+     text-align: center; /*Изменение разера текста */
+ }

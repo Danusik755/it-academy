@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    height: 2000px;
+
+}
+
+
+
+
+
+
+
+.box {
+    /*display: blokc;*/ /*Блочный элемент*/
+   /* display: inline-block;*/ /*Строчный-блочный элемент*/
+   /* display-inside: ; */ /*Строчный элемент*/
+    width: 200px;
+    height: 200px;
+    background blue ;
+    /* color: #ffff; /*HEX/формат*/
+    color : rgb(255, 255, 255); /*RGB формат*/
+}
+
+#third {
+
+   /* position: static;/* Статичное расположение(по умолчанию)*/
+  /*  position: relative;/*Относительное позиционирование элеента*/
+    display: inline-block;
+    position: absolute; /* Абсолютное позиционировае*/
+    top: 50px; /* отступ сверху*/
+    left: 20 px; /*отступ слева*/
+    /*right: 20px;*/ /* отступ справа */
+    /*bottom:20px*/ /* отступ снизу */
+    background:  orange;
+}
+
+#second_child {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    widht: 100px;
+    height: 400px;
+    background: lightblue;
+
+}
+
+.fixed {
+    position: fixed; /*Позиционирование относительного окна */
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: darkblue;
+    padding: 10px;
+}
