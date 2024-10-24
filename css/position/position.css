@@ -16,7 +16,7 @@ body {
    /* display-inside: ; */ /*Строчный элемент*/
     width: 200px;
     height: 200px;
-    background blue ;
+    background: blue ;
     /* color: #ffff; /*HEX/формат*/
     color : rgb(255, 255, 255); /*RGB формат*/
 }
@@ -28,7 +28,7 @@ body {
     display: inline-block;
     position: absolute; /* Абсолютное позиционировае*/
     top: 50px; /* отступ сверху*/
-    left: 20 px; /*отступ слева*/
+    left: 20px; /*отступ слева*/
     /*right: 20px;*/ /* отступ справа */
     /*bottom:20px*/ /* отступ снизу */
     background:  orange;

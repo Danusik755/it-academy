@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    height: 2000px;
+
+}
+
+
+
+
+
+
+
+.box1 {
+
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    background: red ;
+    color: #ffff; /*HEX/формат*/
+}
+
+.box2 {
+
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    background: orange ;
+    color: #ffff; /*HEX/формат*/
+    margin-bottom: 30px;
+}
+
+.box3 {
+
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    background: green ;
+    color: #ffff; /*HEX/формат*/
+    margin-bottom: 30px;
+}
+
+.box4 {
+
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    background: powderblue ;
+    color: #ffff; /*HEX/формат*/
+    margin-bottom: 30px;
+}
+
+
+.info-box {
+    background: rgba(0,0,0, 0.5);
+    color: white;
+}
+

@@ -10,13 +10,49 @@ body {
 
 
 
-.box {
-   /* display: blokc;*/ /*Блочный элемент*/
-     display: inline-block;*/ /*Строчный-блочный элемент*/
-     /*display-inside: ; */ /*Строчный элемент*/
-    width: 200px;
-    height: 200px;
-    background blue ;
-    /* color: #ffff; /*HEX/формат*/
-    color : rgb(25, 255, 255); /*RGB формат*/
+.box1 {
+
+     display: block;
+   position: relative;
+
+    height: 50px;
+    background: blue ;
+     color: #ffff; /*HEX/формат*/
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.box2 {
+
+    display:  block;
+    position: relative;
+
+    height: 50px;
+    background: blue ;
+     color: #ffff; /*HEX/формат*/
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.box3 {
+
+    display: block;
+    position: relative;
+
+    height: 50px;
+    background: blue ;
+     color: #ffff; /*HEX/формат*/
+    padding: 10px;
+}
+
+.main-box {
+    border: 2px  solid black;
+    padding: 15px;
+}
+
+
+
+.section {
+    border: 1px solid black; /* Рамка вокруг элемента */
+    margin: 1px;
+    /*padding: 20px;*/
+    padding-left: px;
 }
