@@ -1,7 +1,6 @@
 body {
     margin: 0;
     display: flex;
-    justify-content:center;
     flex-direction: column;
     height: 100vh;
 }
@@ -10,6 +9,7 @@ body {
 
 .header {
     display: flex;
+    justify-content:space-between;
     align-items: center;  ;
     background-color: orange ;
     color: #ffff;
@@ -36,13 +36,11 @@ body {
 
 .main  {
     display: flex;
-    justify-content: flex-start;
-    background:  white;
+    justify-content: center;
+    background: red;
     flex-direction: column;
     flex-grow: 1; /*Растянем данный блок */
     align-items: center;
-
-    padding-right:500px;
 }
 
 .main h1 {
@@ -76,24 +74,4 @@ body {
     flex-grow: 1;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-
-.text {
-padding-right: 500px;
-}
-.text2 {
-    padding-right: 625px;
-}
-
-.img {
-    padding-right: 100px;
-}
-
-.main3 {
-    padding-right: 500px;
-}
-
-table {
-    width: 100%;
 }
