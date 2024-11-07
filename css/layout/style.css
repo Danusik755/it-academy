@@ -3,7 +3,6 @@ body {
     display: flex;
     justify-content:center;
     flex-direction: column;
-    height: 100vh;
 }
 
 
@@ -38,11 +37,7 @@ body {
     display: flex;
     justify-content: flex-start;
     background:  white;
-    flex-direction: column;
     flex-grow: 1; /*Растянем данный блок */
-    align-items: center;
-
-    padding-right:500px;
 }
 
 .main h1 {
@@ -96,4 +91,18 @@ padding-right: 500px;
 
 table {
     width: 100%;
+}
+.text3 {
+    /*padding-right: 480px;*/
+}
+.text4 {
+    /*padding-right: 530px;*/
+}
+.text5 {
+    /*padding-left: 1000px;*/
+}
+
+.footer {
+    color: white;
+    background: orange;
 }
