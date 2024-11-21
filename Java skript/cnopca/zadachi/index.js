@@ -1,13 +1,12 @@
-function changeColor() {
-    let body = document.body;
-
-    body.style.backgroundColor = 'pink'
-}
-
 let sumButton = document.getElementById('cvet')
 
 function changeColor() {
-    document.body.style.backgroundColor = 'green'
+    if (document.body.style.backgroundColor === 'green') {
+        document.body.style.backgroundColor = 'blue'
+    }
+    else {
+        document.body.style.backgroundColor = 'green'
+    }
 }
 sumButton.addEventListener('click', changeColor)
 
