@@ -1,5 +1,6 @@
-let sumButton = document.getElementById('cvet')
 let sumInput = document.getElementById('input')
+let sumButton = document.getElementById('cvet')
+
 
 function text() {
     if (sumInput.value === 'Изменить текст в input') {
