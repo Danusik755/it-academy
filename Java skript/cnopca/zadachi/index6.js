@@ -1,14 +1,11 @@
 let sumInput = document.getElementById('input')
 let sumButton = document.getElementById('cvet')
+let sumapragraf = document.getElementById('paragraf')
+
 
 
 function text() {
-    if (sumInput.value === 'Изменить текст в input') {
-        sumInput.value = 'Текст'
-    }
-    else {
-        sumInput.value = 'Изменить текст в input'
-    }
+   sumapragraf.innerText = sumInput.value
 }
 
 sumButton.addEventListener('click', text)
