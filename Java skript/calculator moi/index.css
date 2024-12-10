@@ -1,0 +1,116 @@
+
+
+.button1 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+
+}
+.button2 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button3 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button4 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button5 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button6 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button7 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button8 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button9 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button0 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button10 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+
+.button11 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button00 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.buttonC {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.buttons {
+    width: 420px;
+}
+.button12 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button13 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button14 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+}
+.button15 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;}
+
+.input {
+    min-width: 10px;
+    height: 10px;
+    color: yellow;
+    display: inline-block;
+}
+.bub {
+    width: max-content;
+    background-color:black;
+
+}
+#input {
+    width: 96%;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
