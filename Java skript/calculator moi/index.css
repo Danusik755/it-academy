@@ -114,3 +114,16 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.button20 {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;}
+
+
+button {
+    display: inline-block;
+    min-width: 100px;
+    height: 70px;
+    width: 135px;
+}
