@@ -1,0 +1,54 @@
+input {
+
+    width: 350px;
+    height: 20px;
+
+}
+.name {
+    padding-top: 1px;
+}
+
+.top1 {
+    width: 350px;
+    border: darkred 3px solid;
+    padding: 10px;
+}
+
+.papa1 {
+
+}
+
+.name {
+
+}
+
+button {
+    margin-top : 10px;
+    color: white;
+    background-color: black;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+
+.top2 {
+}
+
+.but {
+    display: flex;
+    margin-top : 10px;
+    color: white;
+    background-color: black;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+
+.bar {
+    display: flex;
+    padding-left: 100px;
+
+
+}
+.bar2 {
+   padding-left: 200px;
+
+}
