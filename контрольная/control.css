@@ -1,0 +1,50 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.but1 {
+    background: white;
+    text-decoration-color: black  ;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+.but2 {
+    background: black;
+    text-decoration: white  ;
+    color: white;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+.but3 {
+    background: gray;
+    text-decoration: black  ;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+.but4 {
+    background: goldenrod;
+    text-decoration: black;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+.but5 {
+    background: darkblue;
+    text-decoration: greenyellow;
+    border-color: darkred ;
+    border-radius : 10px;
+}
+
+.buttons1 {
+    display: flex;
+    padding-top : 150px;: ;
+    border-bottom : 50px;
+    margin: 10px;
+}
+.input {
+    min-width: 100px;
+    padding-left: 100px;
+    width: 100px;
+    border-radius: 1px  ;
+    background-color: transparent;
+}
