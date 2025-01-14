@@ -3,6 +3,12 @@ let description = document.getElementById('description');
 let button = document.getElementById('button');
 let list = document.getElementById('list');
 let count = 0
+let searchInput = document.getElementById('search');
+let searchButton = document.getElementById('search-btn');
+let resetButton = document.getElementById('reset-button');
+let tasksListHtml = '';
+
+
 
 function addTask() {
     //Создание нового элемента с помощью createElement
@@ -45,3 +51,21 @@ function addTask() {
 }
 
 button.addEventListener('click', addTask )
+
+function searchTask() {
+let tasks = document.getElementsByClassName('task');
+for (let task in tasks) {
+let titles = task.getElementsByClassName('task');
+    let title =titles[0]
+  if  (title.innerText.includes(searchInput.value ) == false) {
+  task.remove();
+  }
+searchButton.addEventListener('click', searchTask)
+function resetTasks() {
+list.innerHtml = tasksListHtml;
+}
+
+    }
+}
+
+searchButton.addEventListener('click', searchTask);
