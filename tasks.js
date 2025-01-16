@@ -6,11 +6,11 @@ let count = 0
 let searchInput = document.getElementById('search');
 let searchButton = document.getElementById('search-btn');
 let resetButton = document.getElementById('reset-button');
-let tasksListHtml = '';
 
 
 
-function addTask() {
+
+function addTask () {
     //Создание нового элемента с помощью createElement
     let task = document.createElement('div')
     let taskTitle = document.createElement('div');
@@ -54,11 +54,13 @@ button.addEventListener('click', addTask )
 
 function searchTask() {
 let tasks = document.getElementsByClassName('task');
+
 for (let task in tasks) {
-let titles = task.getElementsByClassName('task');
+let titles = task.getElementsByClassName('task-category');
+
     let title =titles[0]
-  if  (title.innerText.includes(searchInput.value ) == false) {
-  task.remove();
+  if (title.innerText.includes(searchInput.value ) === false) {
+  task.style.display = 'none'
   }
 searchButton.addEventListener('click', searchTask)
 function resetTasks() {
@@ -69,3 +71,14 @@ list.innerHtml = tasksListHtml;
 }
 
 searchButton.addEventListener('click', searchTask);
+
+function resetTask() {
+    let tasks = document.getElementsByClassName('task');
+}
+
+ for (let task of tasks){
+     task.style.display = 'block';
+ }
+
+
+resetButton.addEventListener('click',resetTask)

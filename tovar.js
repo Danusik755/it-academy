@@ -1,8 +1,9 @@
-let tittle = document.getElementById('tittle');
-let description = document.getElementById('description');
+let tittle = document.getElementById('papa');
+let description = document.getElementById('papa4');
 let button = document.getElementById('button');
 let list = document.getElementById('list');
 let count = 0
+let delButton = document.createElement('deleteButton');
 
 function addTask() {
     //Создание нового элемента с помощью createElement
@@ -12,10 +13,14 @@ function addTask() {
     let deleteButton = document.createElement('button');
     let taskNumber = document.createElement('div');
 
-    function deleteTask() {
-        //Удаление элементв со страницицы
+
+    function delTask() {
         task.remove();
+        count=count - 1
     }
+
+    deleteButton.addEventListener('click', delTask);
+
 
     //Добавляем HTML внутрь элементов
     taskTitle.innerHTML = `<b>Название:</b> ${ tittle.value }`;
@@ -23,7 +28,7 @@ function addTask() {
     deleteButton.innerHTML = 'Удалить'
 
     count = count + 1
-    taskNumber.innerHTML = `<b> Задача №$ { count } </b>`
+    taskNumber.innerHTML = `<b> Задача №${ count } </b>`
 
 
     //Добавляем Css-классы на элементы
@@ -34,7 +39,7 @@ function addTask() {
     //добавляем название и описание задачи внутрь
 
     //Добавляем новый элемент в конец списка задач
-    task.append(taskTitle, taskDescription);
+    task.append(taskTitle, taskDescription, deleteButton, taskNumber);
 
 // Добавление нового элемента в конец эемента
     list.append(task)
