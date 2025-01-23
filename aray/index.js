@@ -75,42 +75,77 @@ let usersList = document.getElementById('users-list');
 
 //Функция для ввода вользователей на экран
 function ShowUsers() {
-    //Создаем карточку пользователя
-    let userCard = document.createElement('div');
+    //циклы в jfvascript
+    //for (let элемент_массива of массив)
+    //действия для выполнения над элементом
+    //}
+    for (let user of users) {
+        let userCard = document.createElement('div');
 
-    //Создаем аватар пользователя
-    let userAvatar = document.createElement('div');
-    //Создаем имя пользователя
-    let userName = document.createElement('h2');
-    //Создаем имя пользователя
-    let userPhone = document.createElement('p');
-    //Создаем  emal пользователя
-    let userEmail = document.createElement('p');
-    //Создаем др пользователя
-    let userBirthday = document.createElement('p');
+        //Создаем аватар пользователя
+        let userAvatar = document.createElement('div');
+        //Создаем имя пользователя
+        let userName = document.createElement('h2');
+        //Создаем имя пользователя
+        let userPhone = document.createElement('p');
+        //Создаем  emal пользователя
+        let userEmail = document.createElement('p');
+        //Создаем др пользователя
+        let userBirthday = document.createElement('p');
 
-    //Добавляем карточке поьзователя класс user/card
-    userCard.classList.add('user-card');
-    //Добавляем автару поьзователя класс user/card
-    userAvatar.classList.add('user-avatar');
-    //Поместить автар пользователя внутрь созданной карточки
-    userCard.append(userAvatar, userName, userPhone,userEmail,userBirthday);
-    //Добавляем имя пользователя класс user-name
-    userName.classList.add('user-name');
-    //картинку внутрь div
-    userAvatar.innerHTML='<img src="https://www.clipartmax.com/png/full/258-2582267_circled-user-male-skin-type-1-2-icon-male-user-icon.png" alt="">'
+        //Добавляем карточке поьзователя класс user/card
+        userCard.classList.add('user-card');
+        //Добавляем автару поьзователя класс user/card
+        userAvatar.classList.add('user-avatar');
+        //Поместить автар пользователя внутрь созданной карточки
+        userCard.append(userAvatar, userName, userPhone,userEmail,userBirthday);
+        //Добавляем имя пользователя класс user-name
+        userName.classList.add('user-name');
+        //картинку внутрь div
+        userAvatar.innerHTML='<img src="https://www.clipartmax.com/png/full/258-2582267_circled-user-male-skin-type-1-2-icon-male-user-icon.png" alt="">'
 
-    //поместить имя пользователя внутрь user Name
-    userName.innerHTML='Иван';
-    //Поместим телефон пользователя внутрь userPhone
-    userPhone.innerHTML='<b>телефон: </b> + 7 (999) 143-143-14';
-    //Поместим телефон пользователя внутрь userPhone
-    userEmail.innerHTML='<b>email: </b> ivan@imail.ru';
-    //Поместим телефон пользователя внутрь userPhone
-    userBirthday.innerHTML='<b>дата рождения: </b> 07.02.1998';
+        userCard.classList.add('user-card');
+        //Добавляем автару поьзователя класс user/card
+        userAvatar.classList.add('user-avatar');
+        //Поместить автар пользователя внутрь созданной карточки
+        userCard.append(userAvatar, userName, userPhone,userEmail,userBirthday);
+        //Добавляем имя пользователя класс user-name
+        userName.classList.add('user-name');
+        //картинку внутрь div
+        userAvatar.innerHTML='<img src="https://www.clipartmax.com/png/full/258-2582267_circled-user-male-skin-type-1-2-icon-male-user-icon.png" alt="">'
 
-    //Поместить карточку пользователя в конец списка
-    usersList.append(userCard);
+        //поместить имя пользователя внутрь user Name
+        userName.innerHTML='Иван';
+        //Поместим телефон пользователя внутрь userPhone
+        userPhone.innerHTML='<b>телефон: </b> + 7 (999) 143-143-14';
+        //Поместим телефон пользователя внутрь userPhone
+        userEmail.innerHTML='<b>email: </b> ivan@imail.ru';
+        //Поместим телефон пользователя внутрь userPhone
+        userBirthday.innerHTML='<b>дата рождения: </b> 07.02.1998';
+
+        //Поместить карточку пользователя в конец списка
+        usersList.append(userCard);
+    }
 }
 
 ShowUsers()
+
+
+let numbers = [1,2,3,4,5,6]
+
+for (let num of numbers){
+    console.log("элемент массива", num)
+    num=num + 1
+}
+
+// numbers[0] = numbers[0] +1
+// numbers[1] = numbers[1] +1
+// numbers[2] = numbers[2] +1
+// numbers[3] = numbers[3] +1
+// numbers[4] = numbers[4] +1
+// numbers[5] = numbers[5] +1
+
+console.log
+
+
+
