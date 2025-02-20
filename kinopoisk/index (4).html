@@ -15,8 +15,13 @@
 <header class="container">
     <div class="header__content">
         <a class="header__logo">Кинопоиск (ну, почти)</a>
+        <input class="pole" placeholder=" Введите название фильма" id = "pole">
+        <button class="kop" id = 'kop'>Найти</button>
+        <button class="kop1" id ="sbros">сброс</button>
     </div>
+
 </header>
+
 <div class="container">
     <div class="movies" id="movies">
         <div class="movie">
@@ -29,16 +34,19 @@
             </div>
             <div class="movie__title">
                 Во все тяжкие (2008)
-            </div>
+        </div>
             <div class="movie__average">
                 8.9
             </div>
         </div>
     </div>
-
-
-
-    <div class="pages"></div>
+    <div class="pages">
+        <button class="page active">1</button>
+        <button class="page">2</button>
+        <button class="page">3</button>
+        <button class="page">4</button>
+        <button class="page">5</button>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="index.js"></script>
